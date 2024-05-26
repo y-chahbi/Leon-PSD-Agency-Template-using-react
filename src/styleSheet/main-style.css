@@ -1,0 +1,324 @@
+/* variables in css */
+
+:root {
+    --mainColor: #18c2af;
+    --secondColor: #2d4653;
+}
+
+/* variables in css */
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.Header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Header div {
+    width: 50%;
+    text-align: center;
+}
+
+.logo img,
+.menu img {
+    width: 30px;
+    height: 24px;
+}
+
+.Welcom {
+    height: 400px;
+    background-image: url("../Pictures/eberhard.jpg");
+    background-size: 100%;
+}
+
+.hide-backgound {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(255 255 255 / 57%);
+}
+
+.hide-backgound h1 {
+    color: var(--mainColor);
+    padding-top: 21px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+    font-weight: 900;
+}
+
+.hide-backgound p {
+    font-size: 12px;
+    line-height: 5px;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 33%;
+    text-align: center;
+}
+
+.card img {
+    width: 45px;
+    height: 45px;
+}
+
+.card .logo {
+    margin-bottom: 20px;
+}
+
+.second {
+    box-shadow: 3px 3px 6px 0px #e0e7eb;
+}
+
+.card h1 {
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.card .holder {
+    padding: 41px 51px;
+}
+
+.card p {
+    font-size: 13px; 
+    line-height: 23px;
+}
+
+.Services,
+.About,
+.Contact,
+.Portfolio{
+    text-align: center;
+}
+
+.Title--p {
+    font-weight: 800;
+    font-size: 70px;
+    font-family: system-ui;
+    letter-spacing: -2px;
+}
+
+.Serv-holder {
+    position: relative;
+    top: -180px;
+    background-color: #fffffff0;
+    height: 400px;
+}
+
+.Serv-holder p {
+    font-size: 13px;
+    padding-top: 85px;
+    color: #000000b8;
+}
+
+.ServicesHolder {
+    padding: 30px 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Services-list {
+    width: calc((100% / 3 )  * 2);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Services-card {
+    width: 50%;
+    display: flex;
+}
+
+.img-holder img {
+    width: 32px;
+    height: 32px;
+}
+
+.img-holder {
+    padding-top: 7px;
+    width: 16%;
+    padding-left: 10px;
+}
+
+.other-info h1 {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.other-info p {
+    padding: 5px 12px;
+}
+
+.Services-picture {
+    border-right: 55px solid var(--secondColor);
+    width: calc((100% / 3));
+}
+
+.Services-picture img {
+    width: 79%;
+    height: 79%;
+    position: relative;
+    top: 11%;
+    right: -19%;
+}
+
+.Portfolio, 
+.Contact {
+    background-color: #fafafa;
+}
+
+.Portfolio .Serv-holder,
+.Contact .Serv-holder {
+    background-color: #fafafaf2;
+}
+
+.Portfolio  .Title--p {
+    margin-top: -76px;
+}
+
+.Port-holder {
+    padding: 30px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post {
+    width: calc(95% / 3);
+    background: white;
+}
+
+.post img {
+    width: 100%;
+    height: 200px;
+}
+
+.post h1{
+    text-align: left;
+    font-size: 11px;
+    font-family: sans-serif;
+    padding-left: 9px;
+}
+
+.post p {
+    font-size: 13px;
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 9px;
+    color: #000000b8;
+}
+
+.About-holder {
+    padding: 20px 20%;
+    display: flex;
+}
+
+.left-sode {
+    width: 50%;
+    display: flex;
+}
+
+.left-sode img {
+    width: 310px;
+    height: 250px;
+    position: relative;
+    top: 34px;
+    z-index: 1;
+    right: 49px;
+}
+
+.dev-stand {
+    width: 78px;
+    height: 316px;
+    background-color: #fafafa;
+}
+
+.txt-bold {
+    font-weight: 900;
+    text-align: left;
+}
+
+.txt-normal {
+    text-align: left;
+    color: #000000b3;
+}
+
+.half-border {
+    margin: 30px 0px 20px 0px;
+    width:50%;
+    height: 2px;
+    background-color: var(--mainColor);
+}
+
+.dev-with-letter-l {
+    height: 231px;
+    margin-top: 19px;
+    width: 118px;
+    border-left: 44px solid #0ecbb9;
+    border-bottom: 44px solid #0ecbb9;
+    position: relative;
+    right: 73px;
+}
+
+.Contact-holder {
+    padding: 75px 25%;
+    text-align: left;
+}
+
+.fell-free , .conatct-email{
+    color: var(--secondColor);
+    font-weight: 900;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conatct-email {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: var(--mainColor);
+    display: inline-block;
+}
+
+.Footer {
+    background-color: var(--secondColor);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    padding: 36px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: var(--mainColor);
+    background: none;
+}
+
+.Contact .Serv-holder {
+    height: 200px;
+}
+
+.Portfolio .Serv-holder {
+    height: 370px;
+}
+.Footer p {
+    margin: 0;
+}
